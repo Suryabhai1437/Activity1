@@ -11,6 +11,7 @@ import { PricingAbtComponent } from './pricing-abt/pricing-abt.component';
 import { FounderComponent } from './founder/founder.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { ImagesComponent } from './images/images.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     FounderComponent,
     AboutUsComponent,
     NavBarComponent,
+    ImagesComponent,
   ],
   imports: [
     BrowserModule,

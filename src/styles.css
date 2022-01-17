@@ -28,6 +28,9 @@
   .home .intro .text-head{
     margin-top:80vh;
   }
+  .pricing-of-all{
+    margin-top: -12vh;
+  }
 }
 
 @media only screen and (max-width:1500px){
@@ -48,6 +51,9 @@
   }
   .home,.abt-us,.pricing{
     margin-right:-440pt;
+  }
+  .pricing-of-all{
+    margin-top: -20vh;
   }
   .footer{
     width: 1200pt;
