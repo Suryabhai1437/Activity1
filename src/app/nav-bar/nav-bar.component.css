@@ -1,0 +1,29 @@
+.nav-item a:hover{
+    color:rgb(92, 204, 201);
+}
+.navbar-brand{
+    text-align: center;  
+}
+
+.twitter{
+    position: absolute;
+margin-left:770px;
+color: rgb(92, 204, 201);
+font-size: small;
+text-align: center;
+}
+.facebook{
+    position: absolute;
+margin-left:810px;
+color: rgb(92, 204, 201);
+font-size: small;
+text-align: center;
+}
+
+.font-awesome{
+    position: absolute;
+    margin-left:730px;
+    color: rgb(92, 204, 201);
+    font-size: small;
+    text-align: center;
+}

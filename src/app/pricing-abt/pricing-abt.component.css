@@ -1,0 +1,191 @@
+.pricing{
+    padding: 100px 0;
+    position: relative;
+}
+/*About Us*/
+
+.pricing .abt{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title{
+    color: #5cccc9;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h5,p{
+    font-family:serif;
+}
+.icons .icon{
+    margin-bottom: 20px;
+    display: inline-block;
+    line-height: 90px;
+    border-radius: 50%;
+    background: #5cccc9;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}  
+
+@media only screen and (min-width: 992px) {
+    .icons .icon{
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+    }   
+  
+}
+
+@media only screen and (max-width: 992px) {  
+    .icons{
+        padding-left: 30%;
+    }  
+    .icons .icon{
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+    } 
+}
+
+@media only screen and (min-width:425px) and (max-width:768px)  {
+    .title{
+        font-size:18pt;
+        font-weight: 800;
+        margin-bottom: 10px;
+        margin-left: -210pt;
+        width: 200vh;
+    }
+    .pricing .para{
+        font-size: 55pt;
+        width: 200vh;
+        margin-left: -200pt;
+    }
+    .icons{
+        padding-top: 200pt;
+    }
+    .icons .icon{
+        width: 180px;
+        height: 180px;
+        font-size: 60px;
+        padding-top: 25px;
+    } 
+    .icons .icon-building{
+        margin-left:-65vh;   
+    }
+    .icons .icon-lock{
+        margin-left:30vh;        
+    }
+    .icons h5{
+        font-size: 35pt;
+    }
+    .icons .creativity{
+        margin-left:-66vh;
+    }
+    .icons .creativity p{
+        margin-left:-33vh;
+        font-size: 25pt;
+        color: grey;
+        width: 500pt;
+    }
+    .icons .solutions{
+        margin-left:30vh;
+    }
+    .icons .solutions p{
+        margin-left:-40vh;
+        font-size: 25pt;
+        color: grey;
+        width: 500pt;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:426px){
+    .title{
+        font-size:40pt;
+        font-weight: 800;
+        margin-bottom: 10px;
+        margin-left: 10pt;
+    }
+    .pricing .para{
+        font-size: 100pt;
+        width: 200vh;
+        margin-left:30pt;
+    }
+    .icons{
+        padding-top: 200pt;
+    }
+    .icons .icon{
+        margin-left:105vh;
+        width: 250pt;
+        height: 250pt;
+        font-size: 100pt;
+        padding-top:9%;
+    } 
+    .icons .icon-building{
+        margin-left:60vh;   
+    }
+    .icons .icon-lock{
+        margin-left:60vh;        
+    }
+    .icons h5{
+        font-size:80pt;
+    }
+    .icons .creativity, .icons .solutions{
+        margin-left:50vh;
+    }
+    .icons .creativity p, .icons .solutions p{
+        margin-left:-90vh;
+        font-size:50pt;
+        color: grey;
+        width:230vh;
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-width:320px){
+    .title{
+        margin-top: 350vh;
+        font-size:40pt;
+        font-weight: 800;
+        margin-bottom: 10px;
+        margin-left: 10pt;
+    }
+    .pricing .para{
+        font-size: 100pt;
+        width: 190vh;
+        margin-left:30pt;
+    }
+    .icons{
+        padding-top: 200pt;
+    }
+    .icons .icon{
+        width: 250pt;
+        height: 250pt;
+        font-size: 100pt;
+        padding-top:9%;
+    } 
+    .icons .icon-building,.icons .icon-lock{
+        margin-left:30vh;   
+    }
+    .icons h5{
+        font-size:80pt;
+    }
+    .icons .creativity, .icons .solutions{
+        margin-left:20vh;
+    }
+    .icons .creativity p, .icons .solutions p{
+        margin-left:-60vh;
+        font-size:50pt;
+        color: grey;
+        width:195vh;
+    }
+
+}

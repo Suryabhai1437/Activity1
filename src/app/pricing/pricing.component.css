@@ -1,0 +1,224 @@
+.pricing{
+    padding: 100px 0;
+    position: relative;
+}
+
+.pricing .container{
+    position: relative;
+    margin-top: 7%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.title{
+    color: #5cccc9;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.title .para,.pricing .para{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom:2%;
+    font-size: 27pt;
+}
+
+.dollar{
+    font-size: 30px;
+}
+
+.price-box .free{
+    padding: 35px; ;
+    color: #fff;
+    background: #5cccc9;
+}
+
+.price-box .premium{
+    padding: 35px;
+    color: #fff;
+    background: #6ebfb5;
+}
+
+.price-box .enterprise{
+    padding: 35px;
+    color: #fff;
+    background: #ade498;
+}
+
+.price-box .btn{
+    background:transparent;
+    color: #fff;
+    border-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    border-radius: 0;
+}
+
+.price-box .btn:hover{
+    background-color: #fff;
+    color:#5cccc9 ;
+}
+
+.price-box .btn:focus{
+    background-color: rgb(34, 34, 202);
+    color:#fff ;
+}
+
+.row img{
+    height: 402px;
+    width: 600px;
+}
+
+.pricing-of-all:before{
+    position: absolute;
+    content: "";
+    background: #f8f9fa;
+    height:50%;
+    width: 100%;
+    left: 0;
+} 
+
+li{
+    font-size: 12pt;
+    line-height: 2.2;
+}
+.fa{
+    letter-spacing: 10px;
+}
+
+
+@media only screen and (min-width:426px) and (max-width:768px)  {
+    .title{
+        font-size:18pt;
+        font-weight: 800;
+        margin-bottom: 10px;
+        margin-left: 190pt;
+    }
+    .pricing .para{
+        font-size: 55pt;
+        width: 200vh;
+        margin-left: -200pt;
+    }
+    .pricing-of-all:before{
+        width: 210vmax;
+    } 
+    .pricing .price-box{
+        width:230vh;
+        margin-left:-250pt;
+        height: 250vh;
+    }
+    .price-box h2{
+        font-size: 55pt;
+        margin-top: 10px;
+    }
+    .price-box .dollar{
+        font-size: 55pt;
+    }
+    .price-box li{
+        font-size:25pt;
+        margin-left: 10px;
+    }
+    .price-box .btn{
+        font-size:20pt;
+        padding: 30px 50px 30px 50px;
+    } 
+ }
+
+ @media only screen and (min-width:375px) and (max-width:426px){
+    .title{
+        font-size:30pt;
+        font-weight: 800;
+        margin-bottom: 10pt;
+        margin-left: 80vh;
+        width: 80vh;
+        margin-top:100pt;
+    }
+    .pricing .para{
+        font-size:110pt;
+        width:270vh;
+        margin-left: -100pt;
+        margin-bottom: 50pt;
+    }
+    .pricing-of-all:before{
+        width:310vmax;
+    } 
+    .pricing .price-box{
+        margin-left:40pt;
+        width:220vh;
+        height: 250vh;
+    }
+    .price-box .free{
+        padding:10px 0px 0px 60px;
+    }
+    
+    .price-box h2{
+        font-size:100pt;
+        margin-top: 10px;
+    }
+    .price-box .dollar{
+        font-size:110pt;
+    }
+    .price-box li{
+        font-size:60pt;
+        margin-left: 10px;
+    }
+    .price-box .btn{
+        font-size:30pt;
+        padding: 60pt 90pt 60pt 90pt;
+    } 
+
+ }
+
+ @media only screen and (max-width:320px){
+    .title{
+        font-size:30pt;
+        font-weight: 800;
+        margin-bottom: 10pt;
+        margin-left:50vh;
+        width: 80vh;
+        margin-top:200pt;
+    }
+    .pricing .para{
+        font-size:100pt;
+        width:210vh;
+        margin-left: -60pt;
+        margin-bottom: 50pt;
+    }
+    .pricing-of-all:before{
+        width:280vmax;
+    } 
+    .pricing .price-box{
+        margin-left:10pt;
+        width:195vh;
+        height: 220vh;
+    }
+    .price-box .free{
+        padding:10px 0px 0px 60px;
+    }
+    
+    .price-box h2{
+        font-size:100pt;
+        margin-top: 10px;
+    }
+    .price-box .dollar{
+        font-size:110pt;
+    }
+    .price-box li{
+        font-size:60pt;
+        margin-left: 10px;
+    }
+    .price-box .btn{
+        font-size:30pt;
+        padding: 60pt 90pt 60pt 90pt;
+    } 
+
+ }

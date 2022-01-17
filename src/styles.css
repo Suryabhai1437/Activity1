@@ -1,1 +1,100 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@font-face {
+
+    font-family: 'AzoSans-Regular';  
+    src: url('assets/font/AzoSans-Regular.ttf');
+
+    font-family: 'AzoSans-Bold';  
+    src: url('assets/font/AzoSans-Bold.ttf');
+  
+  }
+    
+  * { 
+    margin: 0;  
+    padding: 0;  
+    font-family: 'AzoSans-Regular';      
+  }
+
+  *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:2600px){
+  .home .container-fluid .row{
+    height:100vh;
+  }
+  .home .intro .text-head{
+    margin-top:80vh;
+  }
+}
+
+@media only screen and (max-width:1500px){
+  .home .container-fluid .row{
+    height:120vh;
+  }
+.home,.abt-us,.pricing{
+  margin-right: -100pt;
+}
+.footer{
+  width: 1172pt;
+}
+}
+
+@media only screen and (max-width: 1024px){
+  .home .container-fluid .row{
+    height:150vh;
+  }
+  .home,.abt-us,.pricing{
+    margin-right:-440pt;
+  }
+  .footer{
+    width: 1200pt;
+  }
+ }
+
+ @media only screen and (min-width:427px) and (max-width:768px)  {
+   .home .container-fluid{
+     width:257vh;
+   }
+   .home .container-fluid .row{
+    height:250vh;
+  }
+  .home .text .intro h1{
+    margin-left:-30pt;
+  }
+
+  .abt-us{
+    margin-top: 120vh;
+  }  
+}
+
+@media only screen and (min-width:375px) and (max-width:426px){
+  .home .container-fluid{
+    width:310vh;
+  }
+  .home .container-fluid .row{
+   height:350vh;
+ }
+ .abt-us{
+  margin-top:180vh;
+}  
+.pricing-abt-us{
+  margin-top:280vh;
+}
+}
+
+@media only screen and (max-width:320px){
+  .home .container-fluid{
+    width:210vh;
+  }
+  .home .container-fluid .row{
+   height:350vh;
+ }
+ .abt-us{
+  margin-top:250vh;
+}  
+}
+
+
