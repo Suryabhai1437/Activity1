@@ -10,6 +10,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { PriocingAbtComponent } from './priocing-abt/priocing-abt.component';
 import { FounderComponent } from './founder/founder.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FeaturesComponent } from './features/features.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     PricingComponent,
     PriocingAbtComponent,
     FounderComponent,
-    NavbarComponent
+    NavbarComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule,
